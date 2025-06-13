@@ -1,0 +1,58 @@
+.body-texts{
+    margin-top: 5%;
+    width: auto;
+    height: auto;
+    
+}
+.first-text{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 125%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #74C69D;
+}
+
+.main-text{
+    font-family: 'Crimson Text', serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    color: #000000;
+    
+}
+
+.description-text{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+
+@media (max-width: 768px) {
+    .hero-container {
+        flex-direction: column-reverse; 
+        padding: 40px 20px;
+        min-height: 100vh; 
+    }
+
+    .hero-texts {
+        padding-right: 0;
+        margin-top: 20px;
+    }
+
+    .hero-image {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+}
+
