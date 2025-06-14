@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from './button';
-import './Herosection.css';
+import './styles/Herosection.css';
 import HeaderImage from '../assets/images/header_image.png';
 
 

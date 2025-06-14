@@ -1,11 +1,12 @@
 .Partner-Section{
-    padding: 10px 80px;
+    padding: 10px 40px;
     width: 100%;
-    min-height: 90vh;
+    min-height: 50vh;
     justify-content: space-between;
     align-items: center;
     gap: 80px;
     text-align: center;
+    
 }
 
 .partner-logo{

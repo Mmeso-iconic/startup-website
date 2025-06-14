@@ -1,0 +1,49 @@
+.Port-Section{
+    padding: 10px 40px;
+    width: 100%;
+    min-height: 50vh;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    text-align: center;
+    
+}
+
+.web-pages{
+    display: flex;
+    justify-content: center;
+    padding: 55px;
+    gap: 55px;
+    padding-top: 0px;
+
+}
+
+.web-image{
+    width: 570px;
+    height: 365px;
+    border-radius: 5px;
+
+}
+
+@media (max-width: 768px) {
+    .Port-Section {
+        padding: 40px 20px;
+        min-height: 100vh; 
+    }
+
+    
+.web-pages{
+    flex-direction: column;
+    justify-content: center;
+    padding: 55px;
+    gap: 55px;
+    padding-top: 0px;
+}
+
+.web-image{
+    width: 335px;
+    height: 208.64035034179688px;
+    border-radius: 5px;
+    border-width: 1.5px;
+}
+}

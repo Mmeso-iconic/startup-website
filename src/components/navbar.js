@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Logo from '../assets/icons/Logo.svg';
 import Hamburger from '../assets/icons/Menu-icon.svg'; 
 import Close from '../assets/icons/Closemenu-btn.svg'; 
-import './navbar.css'; 
+import './styles/navbar.css'; 
 
 
 function Navbar() {

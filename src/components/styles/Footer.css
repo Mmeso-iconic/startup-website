@@ -1,0 +1,41 @@
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: #74C69D;
+    font-family: 'Work Sans', sans-serif;
+    position: relative;
+}
+
+.footer-icons{
+    display: inline-flex;
+    gap: 10px;
+}
+
+.footer-icon{
+    width: auto;
+    height: 18px;
+}
+
+.footer-text{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+.footer-section{
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.footer-text{
+    text-align: center;
+    margin-top: 15px;
+}
+}
