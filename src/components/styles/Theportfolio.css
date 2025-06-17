@@ -1,12 +1,5 @@
-.Port-Section{
-    padding: 10px 40px;
-    width: 100%;
-    min-height: 50vh;
-    justify-content: space-between;
-    align-items: center;
-    gap: 80px;
-    text-align: center;
-    
+.farouq {
+    gap: 40px;
 }
 
 .web-pages{
@@ -25,13 +18,16 @@
 
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .Port-Section {
         padding: 40px 20px;
+
         min-height: 100vh; 
+        
     }
 
     
+
 .web-pages{
     flex-direction: column;
     justify-content: center;
@@ -46,4 +42,21 @@
     border-radius: 5px;
     border-width: 1.5px;
 }
+}
+
+@media screen and (max-width: 320px) {
+    .web-image{
+        width: 20%;
+        height: 208.64035034179688px;
+        text-align: center;
+
+    }
+
+    .farouq {
+        display: block;
+        align-items: center;
+    }
+
+
+
 }

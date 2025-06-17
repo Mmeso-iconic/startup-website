@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 20px;
+    padding: 10px 80px;
     background-color: #74C69D;
     font-family: 'Work Sans', sans-serif;
     position: relative;
@@ -97,6 +97,7 @@
     .navbar {
     display: flex;
     justify-content: space-between;
+    padding: 40px 20px; 
     
 
 }
