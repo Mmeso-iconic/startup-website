@@ -35,6 +35,12 @@ Visit the live version here:
 Loom walkthroughs are separated due to the free version’s time limit.
 [Watch on Loom](https://www.loom.com/share/a09887f141f14b378adbbc0d0dda7284?sid=57bebeb5-b505-41bf-a57a-6f5b17fd4ac1)
 
+Presentation of Services and Contact Form page
+(https://www.loom.com/share/5c2401bcd8304be697cd76dac3a87957?sid=ac60bca2-9d3f-40af-b01c-769986394be8)
+
+Presentation of Services and Contact Form page continued
+(https://www.loom.com/share/201d94f36f09476cade1f3a4a9f76c4c?sid=a17bb2f1-1389-4227-9121-989ccbe66d0f)
+
 ## ✨ Features
 
 - Mobile-first and fully responsive design
