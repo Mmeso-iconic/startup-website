@@ -5,23 +5,36 @@ import { Link } from 'react-router-dom';
 
 const STYLES = ['btn--primary', 'btn--secondary'];
 
-const SIZES = ['btn--medium'];
+const SIZES = ['btn--medium' , 'btn--large'];
 
 export const Button = ({
     children,
     type,
     onClick,
     buttonStyle,
-    buttonSize
+    buttonSize,
+    className = '',
+    to,
+    noLink = false, // ✅ new prop
 }) => {
     const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
     : STYLES[0];
 
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
+    const classes = `btn ${checkButtonStyle} ${checkButtonSize} ${className}`.trim();
+
+        if (!noLink && to) {
+        return (
+        <Link to={to} className="btn-mobile">
+            <button className={classes} type={type} onClick={onClick}>
+            {children}
+            </button>
+        </Link>
+        );
+    }
 
     return (
-    <Link className='btn-mobile'>
         <button
             className={`btn ${checkButtonStyle} ${checkButtonSize}`}
             onClick={onClick}
@@ -29,6 +42,6 @@ export const Button = ({
         >
         {children}
         </button>
-    </Link>
+
     );
 };

@@ -24,6 +24,7 @@ function Serviceprices() {
                         <p className="price-description"><img src={Checkicon} alt="Check icon" className="checkimage"/> Lorem ipsum, dolor sit </p>
                         <p className="price-description"><img src={Checkicon} alt="Check icon" className="checkimage"/> Lorem ipsum, dolor sit </p>
                         <p className="price-description"><img src={Checkicon} alt="Check icon" className="checkimage"/> Lorem ipsum, dolor sit </p>
+
                     </div>
                     <div className='hero-btns'>
                             <Button className='btns'buttonStyle='btn--secondary' buttonSize='btn--medium'> Learn More </Button>
