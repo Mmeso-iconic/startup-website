@@ -37,12 +37,14 @@
 }
 
 .btn--large {
-    padding: 10px 300px;
+    padding: 10px 5vw;
     font-size: 18px;
+    max-width: 100%;
+    width: 100%;
 }
 
-
-.btn--medium:hover {
+.btn--medium:hover, 
+.btn--large:hover {
     transition: all 0.3s ease-out;
     background: #fff;
     color: #242424;
@@ -51,15 +53,11 @@
 
 @media (max-width: 768px) {
 .btn--large {
-    padding: 10px 35vw;
-    font-size: 18px;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
 }
 }
 
-@media (min-width: 768px) and (max-width: 1024px){
-.btn--large {
-    padding: 10px 35vw;
-    font-size: 18px;
-}
-}
+
 
