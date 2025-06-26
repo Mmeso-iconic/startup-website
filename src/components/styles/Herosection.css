@@ -1,0 +1,79 @@
+.hero-container{
+    background-color: #74C69D;
+    padding: 10px 80px;
+    width: 100%;
+    height: auto;
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+
+}
+
+.hero-texts{
+    margin-top: -2%;
+    width: auto;
+    height: 300px;
+    
+}
+.welcometext{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 125%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.hero-text{
+    font-family: 'Crimson Text', serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    color: #fff;
+}
+
+.herotext-description{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    color:#fff;
+    opacity: 0.6;
+}
+
+
+@media (max-width: 768px) {
+.hero-texts {
+    padding-right: 0;
+    margin-top: 20px;
+    }
+
+.hero-image {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    display: block;
+    }
+
+.hero-container {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 10px;
+    min-height: 100vh;
+    }
+
+.hero-texts,
+.herosec-image {
+    margin: 0;
+    padding: 0;
+    }
+}

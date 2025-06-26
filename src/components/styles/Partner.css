@@ -1,0 +1,30 @@
+.Partner-Section{
+    padding: 10px 40px;
+    width: 100%;
+    min-height: 50vh;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    text-align: center;
+    
+}
+
+.partner-logo{
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    padding: 0px 30px;
+    margin-bottom: 30px;
+}
+
+
+
+@media (max-width: 768px) {
+    .Partner-Section {
+        padding: 40px 20px;
+        min-height: 100vh; 
+    }
+}
+

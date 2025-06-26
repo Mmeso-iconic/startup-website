@@ -1,0 +1,151 @@
+.contact-content {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 1180px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+
+
+    }
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+    }
+
+
+.contact-form textarea {
+    resize: none;
+    height: 120px;
+    }
+
+
+.contact-map {
+    width: 50%;
+    height: 384px;
+
+    }
+
+.map-box {
+    width: 100%;
+    height: 384px; 
+    border-radius: 12px;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    margin-top: 20px;
+    }
+
+.leaflet-control-attribution {
+    font-size: 11px;
+    color: #aaa;
+    background: transparent;
+    position: absolute;
+    bottom: 6px;
+    right: 10px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    }
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+    }
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #EEEEEE;
+;
+    }
+
+
+@media (max-width: 768px) {
+    .contact-content {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+        max-width: 335px;
+        height: auto;
+        gap: 30px;
+        padding: 0 16px;
+        margin: 0 auto;
+    }
+
+    .contact-map {
+        width: 100%;
+        height: 300px;
+        order: -1; /* This makes the map appear before the form */
+    }
+
+    
+    .contact-form {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .map-box {
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .leaflet-control-attribution {
+        font-size: 10px;
+        bottom: 4px;
+        right: 6px;
+        color: #999;
+        background: transparent;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contact-content {
+        flex-direction: column;
+        align-items: center;
+
+        margin: 0 auto;
+        gap: 40px;
+    }
+
+    .contact-map {
+        width: 100%;
+        height: 350px;
+        order: -1; /* Show map above form */
+    }
+
+    .map-box {
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+    }
+
+    .contact-form {
+        width: 100%;
+        gap: 20px;
+    }
+
+    input,
+    textarea {
+        font-size: 16px;
+    }
+
+    .leaflet-control-attribution {
+        font-size: 11px;
+        bottom: 6px;
+        right: 10px;
+    }
+}

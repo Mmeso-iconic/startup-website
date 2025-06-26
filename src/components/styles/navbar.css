@@ -1,0 +1,112 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    background-color: #74C69D;
+    font-family: 'Work Sans', sans-serif;
+    position: relative;
+}
+
+.logo-icon {
+    width: 70px;
+    height: 47px;
+}
+
+.logo-text {
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 10px;
+    color: #ffffff;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-navs {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-item {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f3f3f3;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger-icon {
+    width: 25px;
+    height: 20px;
+}
+.close-icon {
+    width: 25px;
+    height: 20px;
+    
+}
+
+/* ============ Sidebar (Mobile Menu) ============ */
+.sidebar {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 60%;
+    background-color: #74C69D;
+    padding: 20px;
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.sidebar .nav-item {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebar .nav-links a {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/* ============ Responsive ============ */
+@media screen and (max-width: 768px) {
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px; 
+    
+
+}
+
+.desktop-navs {
+    display: none;
+    }
+
+.menu-icon {
+    display: block;
+    }
+}
